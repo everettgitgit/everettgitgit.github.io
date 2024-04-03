@@ -9,6 +9,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     };
 
     fetch('https://sodv1201-a2-backend.onrender.com/register', { 
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
