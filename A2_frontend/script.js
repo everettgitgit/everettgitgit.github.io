@@ -8,7 +8,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         status: document.getElementById('status').value,
     };
 
-    fetch('https://sodv1201-a2-backend.onrender.com', { 
+    fetch('https://sodv1201-a2-backend.onrender.com/register', { 
         headers: {
             'Content-Type': 'application/json',
         },
